@@ -1,0 +1,11 @@
+<!--{{usuario}}-->
+<div class="jumbotron">
+<form>
+	<input class="form-control" type="hidden" ng-model="usuario.id">
+	<input class="form-control" type="text" ng-model="usuario.name">
+	<input class="form-control" type="text" ng-model="usuario.email">
+	<input class="form-control" type="text" ng-model="usuario.pass" placeholder="Senha">
+</form>
+<button class="btn btn-primary" ng-click="atualizarUsuario(usuario)">Atualizar</button><br>
+<a href="#/usuarios">Voltar</a>
+</div>
